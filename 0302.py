@@ -71,5 +71,9 @@ if condition1==True and condition2==True :
                 month = month + 1
             elif 1 <= day <= 27:
                 day = day + 1
+    if day==31 and month==12:
+        day=1
+        month=1
+        year=year+1
     
     print(f"\nNext Date in format Day/Month/Year is: {day}/{month}/{year}")
