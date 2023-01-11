@@ -15,8 +15,8 @@ else:
     condition1=True
 
 
-month_31 = [1, 3, 5, 7, 9, 11] 
-month_30 = [4, 6, 8, 10, 12]    
+month_31 = [1, 3, 5, 7, 8, 10,12] 
+month_30 = [4, 6, 9, 11]  
 c1a= day==31 and (month in month_30)
 c1b= day>29  and month==2
 c1c= day==29 and (not leapyear(year)) and month==2
